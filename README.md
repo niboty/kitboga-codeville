@@ -1,10 +1,20 @@
-# kitboga-codeville
-This repository is designed to host Twitch Streamer and YouTuber Kitboga's community-made scripts. Pull requests are welcome, but will be filtered closely. 
+# ahk-windowphysics
 
-Most of the discussion around this repository should happen within the official Kitboga Discord's #codeville channel.
 
-[Please join the discord here!](https://discord.gg/kitboga)
+Gravity/Physics for windows!!!
 
-Development primarily consists of two methods. They are issues and pull requests. As a general rule of thumb, issues reveal parts of the code that need to be upgraded, and pull requests submit changes. New scripts can request to be added by creating a pull request with that code included. Issues can be created, then the changes submitted through a pull request. Be sure to mention in your pull request which issue it resolves with #\<issue number\>.
-  
-Happy coding!
+Author: NiceShotToby
+Revision: 1.0
+Tested On: Windows 8
+
+Currently has Gravity, Bouncing, Friction and Throwing all adjustable.
+I did not implement the disabling maximizing but feel free to do so.
+Throwing works by taking the difference from when you press and release the mouse and
+setting the velocity to that, not perfect but anything better would likely involve complex
+management of the threads.
+
+****Suggested Settings******
+Realistic: 3 Gravity, -0.5 Bounce, 5 Bounce Limiter, 0.4 Friction
+TV Screensaver: 0 Gravity, -1 Bounce, 0 Bounce Limiter, 0 Friction (Toss away and enjoy)
+Helium Windows: -3 Gravity, -0.2 Bounce, 5 Bounce Limiter, 0.6 Friction 
+Concrete Windows: 10 Gravity, 0 Bounce, 0 Bounce Limiter, 0.8 Friction
